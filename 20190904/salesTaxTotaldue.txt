@@ -9,22 +9,22 @@ switch(salesTax)
 	case 1
 		salesTax=0;
 		totalAmount;
-	System.out.println("Dear "+name+", your purchase amount is "+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is "+totalAmount.);
+	System.out.println("Dear "+name+", your purchase amount is $"+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is $"+totalAmount.);
 		break;
 	case 2
 		salesTax=0.03;
 		totalAmount;
-	System.out.println("Dear "+name+", your purchase amount is "+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is "+totalAmount.);
+	System.out.println("Dear "+name+", your purchase amount is $"+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is $"+totalAmount.);
 		break;
 	
 	case 3
 		salesTax=0.05;
 		totalAmount;
-	System.out.println("Dear "+name+", your purchase amount is "+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is "+totalAmount.);
+	System.out.println("Dear "+name+", your purchase amount is $"+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is $"+totalAmount.);
 		break;
 	case 4
 		salesTax=0.7;
 		totalAmount;
-	System.out.println("Dear "+name+", your purchase amount is "+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is "+totalAmount.);
+	System.out.println("Dear "+name+", your purchase amount is $"+purchaseAmount+" and sales tax is "+salesTax+". Your total amount dus is $"+totalAmount.);
 		break;
 	
