@@ -1,0 +1,18 @@
+int employeeNum;
+double hourlyRate;
+String name;
+
+prompt Scanner to let the user input name and employeeNum
+
+if (!employeeNum)
+	System.out.println(name+" does not belong to this department.");
+else{
+	for (int x=0; x<=60; x++)
+		if (x<=35)
+		double weeklypay=x*hourlyRate*40;
+		System.out.println(name+"'s weekly payment is "+weeklypay);
+		else if(x>35){
+		double weekypay=x*1.5*hourlyRate*40
+		System.out.println(name+"'s weekly payment is "+weeklypay);}
+		else
+		System.out.println(name+"'s weekly payment is not to be calculate.");}
