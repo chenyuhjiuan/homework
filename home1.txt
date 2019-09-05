@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+public class ChooseYourOwnAdventure {
+
+    public static void main (String [] args){
+        //give a number from 1-12
+        //then ask for another number from 1-7
+        // i want to change to month and day of the week
+        int num1=0;
+        int num2=0;
+        int num3=0;
+        int num4=0;
+        String action11="";
+        String action12="";
+        String action13="";
+        String action14="";
+        Scanner key = new Scanner(System.in);
+        System.out.println("Welcome to Emily's fun adventure");
+        System.out.println("We have five places to let you go. Please key in the place number");
+        System.out.println("1: Kitchen, 2: Upstairs, 3: Patio, 4: Living Room, 5: Basement");
+        num1= key.nextInt();
+
+        if(num1==1){
+            action11="Kitchen";
+            System.out.println("What are you going to open? Typing 1 is for the refrigerator and typing 2 is for the cabinet.");
+            num2=key.nextInt();
+
+            if(num2==1){
+                action12="refrigerator";
+                System.out.println("You are opening the refrigerator. What are you going to eat? Typing 1 is to drink strange milk and 2 is to eat leftovers");
+                num3=key.nextInt();
+                if(num3==1){
+                    action13="drink strange milk";
+                    System.out.println("Would you like to have some black grape? Typing 1 is for yes and 2 is for no.");
+                    num4=key.nextInt();
+                    if(num4==1){
+                        System.out.println("We are sorry to see you have the poison grape. You die now.");
+                    }else if(num4==2){
+                        System.out.println("Congratulation! You win the game.");
+                    }
+
+                }else if(num3==2){
+                    action13="eat leftovers";
+                    System.out.println("Would you like to have some red orange? Typing 1 is for yes and 2 is for no.");
+                    num4=key.nextInt();
+                    if(num4==1){
+                        System.out.println("We are sorry to see you have the poison orange. You die now.");
+                    }else if(num4==2){
+                        System.out.println("Congratulation! You win the game.");
+                    }
+                }
+            }
+            else if(num2==2){
+                action12="cabinet";
+                System.out.println("You are opening the cabinet. What are you going to do? Typing 1 is to eat can of beans and 2 is to eat leftovers");
+                num3=key.nextInt();
+                if(num3==1){
+                    action13="eat can of beans";
+                    System.out.println("Would you like to have some black grape? Typing 1 is for yes and 2 is for no.");
+                    num4=key.nextInt();
+                    if(num4==1){
+                        System.out.println("We are sorry to see you have the poison grape. You die now.");
+                    }else if(num4==2){
+                        System.out.println("Congratulation! You win the game.");
+                    }
+            }
+
+        }
+
+
+        }
+
+        else{
+            System.out.println("Please enter a valid number.");
+        }
+
+    }
+}
